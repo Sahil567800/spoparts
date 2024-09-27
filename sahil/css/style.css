@@ -240,8 +240,27 @@ body {
 	display: block;
 	float: left;
 	height: 700px;
+	display: none;
 }
+.prev{
+	position: absolute;
+	cursor: pointer;
+  top: 60%;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  right: 96%;
+}
+.next{
+	position: absolute;
+	cursor: pointer;
+  top: 60%;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  left: 96%;
 
+}
 .banner-img img {
 	width: 100%;
 	height: 700px;
@@ -254,7 +273,7 @@ body {
 	top: 35%;
 	left: 5%;
 	font-family: verdana;
-	color: #132533;
+	color: #9ab8cb;;
 }
 
 .banner-color {
